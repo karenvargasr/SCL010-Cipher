@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+   <meta charset="utf-8">
+    <title>Secretly</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+         
+   <h1>Secretly</h1>
+      
+  <div id="page1">
+      <h2>Crea mensajes secretos o descifralos, solo ingresando tu numero clave y comparte con tus BBF ¿Lista para comenzar? 
+      <br> Ingresa tu clave secreta<brh2>
+      </div>
+
+      <div id="boxes">
+     <br>
+      
+      <input type="number" placeholder="Clave"  id ="secretPass" min="1" max="99">
+    <br/>
+      
+      <textarea id="enterText"  placeholder="Escribe tu mensaje" rows="10" cols="40"></textarea>
+      
+      <br>
+      <button class="roundBtn" id="cipher">Cifrar</button>
+      <button id="decipher">Descifrar</button> 
+      <br/>
+
+      <p id="resultText" >Tu secreto! </p>
+      <textarea id="result" rows="10" cols="40">...</textarea>
+      </div>
+
+      <div id="finalButtons">
+      <button name="copyText" id='copy'>COPIAR</button>
+      <button name="clearText" id='clearBtn'>LIMPIAR</button>
+      
     </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

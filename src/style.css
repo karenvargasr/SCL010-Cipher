@@ -1,1 +1,63 @@
-/* Acá va tu código */
+  
+  body {
+    font-family: 'Handlee', cursive;
+    background-color: rgb(226, 245, 240); 
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 20px;
+  } 
+
+
+  h1 {
+    color: fuchsia;
+    text-align: center;
+    font-size: 60px;
+    
+
+  }
+  h2 {
+    
+    font-size: 20px;
+    color: black;
+    
+  }
+  
+  p {
+    
+    text-align: center;
+    font-size: 20px;
+    color: black;
+  }
+
+  button {
+    background-color: rgb(151, 98, 142);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    background-color: rgba(67, 80, 255, 0.705); 
+    color: white;
+  }
+
+  textarea {
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgb(151, 98, 142)cc;
+    border-radius: 4px;
+    background-color: #f3e6f2;
+    resize: none;
+    font-family: 'Handlee', bold;
+    font-size: 20px;
+  }
